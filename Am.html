@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Boyfriend’s Day 💕</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: #ffd6e8; /* pastel pink */
+      color: #444;
+      text-align: center;
+    }
+
+    header {
+      padding: 2rem;
+    }
+    header h1 {
+      font-family: 'Sacramento', cursive;
+      font-size: 3rem;
+      color: #ff6fa5;
+    }
+
+    .section {
+      padding: 2rem;
+    }
+
+    .letter-card {
+      max-width: 600px;
+      margin: 1rem auto;
+      padding: 2rem;
+      background: #fff0f5;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      font-family: 'Sacramento', cursive;
+      font-size: 1.6rem;
+      line-height: 2.2rem;
+      text-align: left;
+    }
+
+    button {
+      background: #ffb6d9;
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: 30px;
+      font-size: 1rem;
+      font-weight: bold;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s;
+      margin-top: 1rem;
+    }
+    button:hover {
+      background: #ff8fc0;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Happy Boyfriend’s Day My Baby💕</h1>
+    <p>You are my favorite person in the whole wide world 🌸</p>
+  </header>
+
+  <!-- Special Letter Section -->
+  <div class="section">
+    <h2>My Special Letter to You 💌</h2>
+    <div class="letter-card">
+      Dear Nehil, <br><br>
+      I don't know how to start this, 
+      You coming into my life is obviously the best thing that has ever happened to me. Your existence makes my day complete.
+      With you I found endless love, comfort and laughter. At one point I had given up on love, which is when I met you and I'm so glad I did, I wouldn't have been able to achieve anything that I have if it weren't for you being there. I owe all my sucess to you. Baby all my love that I can ever give, I want to give it to you because you are a really precious person who deserves all the love that every human on the planet can give. You are what I prayed for and you mean the world to me so much so that I know that I can't imagine existing a day without you. You've made life liveable honey.
+      No matter what, I’ll always treasure us, our moments, and the way you make me feel at home in your heart.💕 <br><br>
+      Always yours, <br>
+      Amshu💕
+    </div>
+  </div>
+
+  <!-- Reasons Section -->
+<div class="section">
+  <h2>Reasons I Love You 💕</h2>
+  <p id="reason">Click the button for a surprise reason!</p>
+  <button onclick="showReason()">💖 Show Me 💖</button>
+</div>
+
+<script>
+  const reasons = [
+    "You make me laugh even on my worst days.",
+    "Your hugs feel like home.",
+    "You understand me without me having to explain.",
+    "The way you smile lights up the entire room.",
+    "You always know how to cheer me up.",
+    "Your voice is my favorite sound.",
+    "You inspire me to be a better person.",
+    "I love how you care for others.",
+    "You make even mundane moments feel magical.",
+    "Your eyes are full of warmth and kindness.",
+    "I love your quirky little habits.",
+    "You make me feel safe and protected.",
+    "I love your sense of humor.",
+    "You believe in me even when I don’t.",
+    "You challenge me in the best ways.",
+    "You notice the little things about me.",
+    "You are patient and understanding.",
+    "I love how passionate you are about your dreams.",
+    "You make ordinary days feel special.",
+    "You are my favorite person to talk to.",
+    "I love your taste in me.",
+    "You always know the right thing to say.",
+    "I love your creativity and imagination.",
+    "You are genuinely kind-hearted.",
+    "Your hugs make all my stress melt away.",
+    "You have the most beautiful soul.",
+    "I love how thoughtful you are.",
+    "You make me feel appreciated and loved.",
+    "I love your confidence and charm.",
+    "You are my partner in all adventures.",
+    "You’re my favorite weirdo.",
+    "You make me believe in love again.",
+    "I love how you make time for me.",
+    "You are my safe place.",
+    "I love the way you laugh contagious and genuine.",
+    "You always know how to make me smile.",
+    "I love your optimism and positive energy.",
+    "You have a heart of gold.",
+    "You are my best friend and soulmate.",
+    "I love your intelligence and curiosity.",
+    "You make me feel beautiful inside and out.",
+    "I love your honesty and integrity.",
+    "You support me in everything I do.",
+    "I love how adventurous you are.",
+    "You make life feel like a fairytale.",
+    "I love the way you say my name.",
+    "You are incredibly thoughtful and generous.",
+    "I love your spontaneous side.",
+    "You make me feel cherished every day.",
+    "I love everything about you big and small."
+  ];
+
+  let index = 0;
+  function showReason() {
+    document.getElementById("reason").innerText = reasons[index];
+    index = (index + 1) % reasons.length;
+  }
+</script>
+
+
+</body>
+</html>
